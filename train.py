@@ -50,7 +50,7 @@ if __name__ == "__main__":
     params_candidates = {
         "learning_rate": [0.01],
         "max_depth": [3],
-        "max_features": [1.0,
+        "max_features": [1.0],
     }
 
     param_set = get_param_set(params=params_candidates)
