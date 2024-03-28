@@ -40,7 +40,7 @@ if __name__ == "__main__":
     # Data storage - 피처 데이터 저장
     if not os.path.exists(os.path.join(DATA_PATH, "storage")):
         os.makedirs(os.path.join(DATA_PATH, "storage"))
-    X.assign(rent=y).to_csv(
+    X.assign(count=y).to_csv(
         # TODO: DATA_PATH 밑에 storage 폴더 밑에 피처 데이터를 저장
         os.path.join(DATA_PATH, "storage", "bike_sharing_train_features.csv"),
         index=False,
@@ -48,9 +48,9 @@ if __name__ == "__main__":
     logger.info("Save feature data ...")
 
     params_candidates = {
-        "learning_rate": [0.01, 0.05, 0.1],
-        "max_depth": [3, 4, 5, 6],
-        "max_features": [1.0, 0.9, 0.8, 0.7],
+        "learning_rate": [0.01],
+        "max_depth": [3],
+        "max_features": [1.0,
     }
 
     param_set = get_param_set(params=params_candidates)
