@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/bike-sharing-demand/mlruns/303087596513873278/73bcbe6bd94a486c89013d30695ba4eb/artifacts
+end_time: 1711606515375
+entry_point_name: ''
+experiment_id: '303087596513873278'
+lifecycle_stage: active
+run_id: 73bcbe6bd94a486c89013d30695ba4eb
+run_name: Run 15
+run_uuid: 73bcbe6bd94a486c89013d30695ba4eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711606511477
+status: 3
+tags: []
+user_id: codespace
