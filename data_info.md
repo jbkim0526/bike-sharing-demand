@@ -15,3 +15,7 @@ windspeed - wind speed
 casual - number of non-registered user rentals initiated
 registered - number of registered user rentals initiated
 count - number of total rentals
+
+
+# Live Share URL
+https://prod.liveshare.vsengsaas.visualstudio.com/join?AB66FB617DF87BA59FA4CD2242EE57FB9FED
