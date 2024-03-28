@@ -17,9 +17,9 @@ CAT_FEATURES = [
 preprocess_pipeline = ColumnTransformer(
     transformers=[
         (  # 1. 범주형 변수(CAT_FEATURES)는 타겟 인코딩 적용
-            "sqrt_transformer",
-            FunctionTransformer(np.sqrt),
-            ["size"],
+            "target_encoder",
+            TargetEncoder(cols=CAT_FEATURES),
+            CAT_FEATURES,
         )
     ],
     remainder="passthrough",
